@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <nav>
+  <a href="home.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+
+  <div class="container">
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>You can reach me through the form or the contact details below:</p>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> inyendefednand@gmail.com</p>
+        <p><strong>Phone:</strong> +254 743 888 255</p>
+        <p><strong>Location:</strong> Kakamega, Kenya</p>
+      </div>
+
+<form action="https://formspree.io/f/mzzvaojk" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+
+  <label for="name">Your Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Your Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+  <button type="submit">Send Message</button>
+</form>
+
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Fednand Inyende. All rights reserved.
+  </footer>
+
+</body>
+</html>
